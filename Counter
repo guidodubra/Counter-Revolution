@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming & Esports Noticias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Gaming & Esports Noticias</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#esports">Esports</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Carrusel de Noticias -->
+    <section id="carrusel">
+        <div class="carousel-item">
+            <h2>¡Nuevo Juego "Battle Arena" Lanza su Beta!</h2>
+            <p>¡El esperado juego de batalla online "Battle Arena" ya está disponible en beta! Conoce todo sobre este nuevo título...</p>
+        </div>
+        <div class="carousel-item">
+            <h2>Este fin de semana: Final del Campeonato Mundial de LoL</h2>
+            <p>No te pierdas la gran final del torneo mundial de League of Legends, los equipos más destacados se enfrentarán por el título...</p>
+        </div>
+    </section>
+
+    <!-- Sección de Noticias -->
+    <section id="noticias">
+        <h2>Últimas Noticias</h2>
+        <article>
+            <h3>Gran Actualización en "Fortnite": Nuevos Mapas y Modos</h3>
+            <p>Fortnite lanza una nueva temporada con un mapa completamente renovado y nuevos modos de juego. ¡Descubre lo que trae esta actualización!</p>
+        </article>
+        <article>
+            <h3>Nuevo Anuncio de "Star Wars: The Battlefront III"</h3>
+            <p>Los fanáticos de Star Wars están celebrando el anuncio de "The Battlefront III", el juego promete llevar la experiencia de guerra galáctica a otro nivel...</p>
+        </article>
+    </section>
+
+    <!-- Sección de Esports -->
+    <section id="esports">
+        <h2>Noticias de Esports</h2>
+        <article>
+            <h3>Equipo "Dragon Esports" Gana la LCS</h3>
+            <p>El equipo de esports Dragon Esports se coronó campeón de la League Championship Series en una final épica...</p>
+        </article>
+        <article>
+            <h3>Los Mejores Jugadores de Dota 2 del Año</h3>
+            <p>Conoce a los jugadores que se han destacado este año en el competitivo de Dota 2. ¡Este año las jugadas épicas no faltaron!</p>
+        </article>
+    </section>
+
+    <!-- Calendario de Eventos -->
+    <section id="eventos">
+        <h2>Próximos Eventos de Esports</h2>
+        <div class="evento">
+            <h3>Final de la Liga de Overwatch - 15 de Diciembre</h3>
+            <p>Prepárate para la final de la Liga de Overwatch que se celebrará en Los Ángeles...</p>
+        </div>
+        <div class="evento">
+            <h3>International Dota 2 - 2024</h3>
+            <p>El evento más grande de Dota 2 regresa con equipos internacionales luchando por el trofeo...</p>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="send_form.php" method="POST">
+            <label for="nombre">Tu Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="mensaje">Tu Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gaming & Esports Noticias. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+  
